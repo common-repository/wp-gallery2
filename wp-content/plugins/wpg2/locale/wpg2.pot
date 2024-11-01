@@ -1,0 +1,1001 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPG2 v2.0\n"
+"Language-Team: WPG2 Development Team <wpg2@ozgreg.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"POT-Creation-Date: 2006-03-25 13:58-0500\n"
+
+#: ../g2admin.php:84
+msgid "Checking System Status..."
+msgstr ""
+
+#: ../g2admin.php:88
+msgid "Gallery2 API located in G2 Path?"
+msgstr ""
+
+#: ../g2admin.php:90 ../g2admin.php:101 ../g2admin.php:122 ../g2admin.php:128
+#: ../g2admin.php:137 ../g2admin.php:150 ../g2admin.php:167 ../g2admin.php:184
+#: ../g2admin.php:198 ../g2admin.php:215 ../g2admin.php:227 ../g2admin.php:231
+#: ../g2admin.php:239 ../g2admin.php:243
+msgid "Success"
+msgstr ""
+
+#: ../g2admin.php:92 ../g2admin.php:103 ../g2admin.php:124 ../g2admin.php:139
+#: ../g2admin.php:152 ../g2admin.php:169 ../g2admin.php:186
+msgid "Failed"
+msgstr ""
+
+#: ../g2admin.php:99
+msgid "G2Image located in TinyMCE plugins folder?"
+msgstr ""
+
+#: ../g2admin.php:117
+msgid "Gallery2 init?"
+msgstr ""
+
+#: ../g2admin.php:129 ../g2admin.php:142 ../g2admin.php:155 ../g2admin.php:173
+#: ../g2admin.php:190 ../g2admin.php:200 ../g2admin.php:222
+msgid "Skipped Due to Previous Error"
+msgstr ""
+
+#: ../g2admin.php:133
+msgid "Gallery2 Version Compatible?"
+msgstr ""
+
+#: ../g2admin.php:147
+msgid "Wordpress Version Compatible?"
+msgstr ""
+
+#: ../g2admin.php:160
+msgid "Gallery2 Module: ImageBlock Active?"
+msgstr ""
+
+#: ../g2admin.php:177
+msgid "Gallery2 Module: ImageFrame Active?"
+msgstr ""
+
+#: ../g2admin.php:194
+msgid "Gallery2 Module: Rewrite Active?"
+msgstr ""
+
+#: ../g2admin.php:199 ../g2admin.php:221
+msgid "Not Active"
+msgstr ""
+
+#: ../g2admin.php:202
+msgid "Gallery2 URL Rewrite Rules Updated?"
+msgstr ""
+
+#: ../g2admin.php:212
+msgid "Failed with Incomplete Configuration"
+msgstr ""
+
+#: ../g2admin.php:217
+#, php-format
+msgid "Active But Config Failed with error: %s"
+msgstr ""
+
+#: ../g2admin.php:220
+msgid "Skipped Config cannot be Verified"
+msgstr ""
+
+#: ../g2admin.php:226
+msgid "Using External Header?"
+msgstr ""
+
+#: ../g2admin.php:230
+msgid "Using Simple Header?"
+msgstr ""
+
+#: ../g2admin.php:238
+msgid "Using External Footer?"
+msgstr ""
+
+#: ../g2admin.php:242
+msgid "Using Simple Footer?"
+msgstr ""
+
+#: ../g2admin.php:283 ../g2admin.php:287
+msgid "WPG2 Plugin "
+msgstr ""
+
+#: ../g2admin.php:283
+msgid "Validation Failed"
+msgstr ""
+
+#: ../g2admin.php:284
+msgid "Please see \"WPG2 Environment Status\" below for reasons."
+msgstr ""
+
+#: ../g2admin.php:287
+msgid "Validated Successfully"
+msgstr ""
+
+#: ../g2admin.php:288
+msgid "Show/Hide Auto Configuration Form &raquo "
+msgstr ""
+
+#: ../g2admin.php:289
+msgid "Your configuration is valid."
+msgstr ""
+
+#: ../g2admin.php:290
+msgid ""
+"You should only need to use auto configuration again if you are moving your "
+"Gallery to a new location."
+msgstr ""
+
+#: ../g2admin.php:294
+msgid "Auto Configuration of Embedded Paths"
+msgstr ""
+
+#: ../g2admin.php:299 ../g2admin.php:323
+msgid "Gallery2 URL:"
+msgstr ""
+
+#: ../g2admin.php:302
+msgid "URL to Gallery2."
+msgstr ""
+
+#: ../g2admin.php:302
+msgid "Example: http://www.domain.com/gallery2/main.php"
+msgstr ""
+
+#: ../g2admin.php:302
+msgid ""
+"Recommend pasting in the URL from a browser window when at your Gallery2 "
+"homepage."
+msgstr ""
+
+#: ../g2admin.php:307
+msgid "Auto Configure"
+msgstr ""
+
+#: ../g2admin.php:312
+msgid "Show/Hide Manual Configuration Form &raquo"
+msgstr ""
+
+#: ../g2admin.php:313
+msgid ""
+"If you are having problems with automatic configuration, you can use manual "
+"configuration."
+msgstr ""
+
+#: ../g2admin.php:317
+msgid "Manually Configure/Adjust Embedded Paths"
+msgstr ""
+
+#: ../g2admin.php:326
+msgid ""
+"URL to Gallery2.<br />Example: http://www.domain.com/gallery2/main.php<br /"
+">Recommend pasting in the URL from a browser window when at your Gallery2 "
+"homepage."
+msgstr ""
+
+#: ../g2admin.php:330
+msgid "URI to Gallery2 Embed Page (wp-gallery2.php):"
+msgstr ""
+
+#: ../g2admin.php:333
+msgid "URL to wp-gallery2.php (or, if renamed, to the renamed page)."
+msgstr ""
+
+#: ../g2admin.php:333
+msgid "Example: http://www.domain.com/wordpress/wp-gallery2.php"
+msgstr ""
+
+#: ../g2admin.php:337
+msgid "Gallery2 File Path:"
+msgstr ""
+
+#: ../g2admin.php:340
+msgid ""
+"This is the File path to your Gallery2 installation.<br />Example: /usr/name/"
+"public_html/gallery2/"
+msgstr ""
+
+#: ../g2admin.php:345
+msgid "On Gallery Error Redirect to:"
+msgstr ""
+
+#: ../g2admin.php:348
+msgid "The page you want to redirect to if there is a Gallery login error."
+msgstr ""
+
+#: ../g2admin.php:355 ../g2adminblogimage.php:155 ../g2adming2image.php:105
+#: ../g2adminpage.php:49 ../g2adminsidebar.php:129 ../g2adminsideblock.php:113
+msgid "Update Options"
+msgstr ""
+
+#: ../g2admin.php:361
+msgid "WPG2 Environment Status"
+msgstr ""
+
+#: ../g2admin.php:365
+msgid "WPG2 Plug-in Operations"
+msgstr ""
+
+#: ../g2admin.php:368 ../g2admin.php:369
+msgid "Reset WPG2 Options to Defaults"
+msgstr ""
+
+#: ../g2admin.php:374
+msgid "Delete all WPG2 Options"
+msgstr ""
+
+#: ../g2admin.php:375
+msgid ""
+"Only do this in preparation for permanently deactivating the plugin.  You "
+"will be taken to the plugins page.  You should immediately deactivate WPG2.  "
+"If you reactive WPG2, all settings will be reset to their defaults."
+msgstr ""
+
+#: ../g2adminblogimage.php:21
+msgid "Blog Image options saved."
+msgstr ""
+
+#: ../g2adminblogimage.php:31
+msgid "Blog Image Options"
+msgstr ""
+
+#: ../g2adminblogimage.php:35
+msgid "WPG2ID and WPG2 Tag Options"
+msgstr ""
+
+#: ../g2adminblogimage.php:38
+msgid "WPG2ID/WPG2 Tag Thumbnail Maximum Size:"
+msgstr ""
+
+#: ../g2adminblogimage.php:41
+msgid ""
+"Enter the default size of the thumbnail to be displayed for a WPG2ID/WPG2 "
+"tag."
+msgstr ""
+
+#: ../g2adminblogimage.php:45
+msgid "WPG2ID/WPG2 Tag Item Frame:"
+msgstr ""
+
+#: ../g2adminblogimage.php:48 ../g2adminblogimage.php:70
+#: ../g2adminblogimage.php:108 ../g2adminsidebar.php:87
+#: ../g2adminsidebar.php:109 ../g2adminsideblock.php:42
+#: ../g2adminsideblock.php:85
+msgid "None"
+msgstr ""
+
+#: ../g2adminblogimage.php:49 ../g2adminblogimage.php:71
+#: ../g2adminsidebar.php:88 ../g2adminsidebar.php:110
+#: ../g2adminsideblock.php:86
+msgid "Solid"
+msgstr ""
+
+#: ../g2adminblogimage.php:50 ../g2adminblogimage.php:72
+#: ../g2adminsidebar.php:89 ../g2adminsidebar.php:111
+#: ../g2adminsideblock.php:87
+msgid "Bamboo"
+msgstr ""
+
+#: ../g2adminblogimage.php:51 ../g2adminblogimage.php:73
+#: ../g2adminsidebar.php:90 ../g2adminsidebar.php:112
+#: ../g2adminsideblock.php:88
+msgid "Book"
+msgstr ""
+
+#: ../g2adminblogimage.php:52 ../g2adminblogimage.php:74
+#: ../g2adminsidebar.php:91 ../g2adminsidebar.php:113
+#: ../g2adminsideblock.php:89
+msgid "Branded Wood"
+msgstr ""
+
+#: ../g2adminblogimage.php:53 ../g2adminblogimage.php:75
+#: ../g2adminsidebar.php:92 ../g2adminsidebar.php:114
+#: ../g2adminsideblock.php:90
+msgid "Dots"
+msgstr ""
+
+#: ../g2adminblogimage.php:54 ../g2adminblogimage.php:76
+#: ../g2adminsidebar.php:93 ../g2adminsidebar.php:115
+#: ../g2adminsideblock.php:91
+msgid "Gold"
+msgstr ""
+
+#: ../g2adminblogimage.php:55 ../g2adminblogimage.php:77
+#: ../g2adminsidebar.php:94 ../g2adminsidebar.php:116
+#: ../g2adminsideblock.php:92
+msgid "Gold 2"
+msgstr ""
+
+#: ../g2adminblogimage.php:56 ../g2adminblogimage.php:78
+#: ../g2adminsidebar.php:95 ../g2adminsidebar.php:117
+#: ../g2adminsideblock.php:93
+msgid "Spiral Notebook"
+msgstr ""
+
+#: ../g2adminblogimage.php:57 ../g2adminblogimage.php:79
+#: ../g2adminsidebar.php:96 ../g2adminsidebar.php:118
+#: ../g2adminsideblock.php:94
+msgid "Polaroid"
+msgstr ""
+
+#: ../g2adminblogimage.php:58 ../g2adminblogimage.php:80
+#: ../g2adminsidebar.php:97 ../g2adminsidebar.php:119
+#: ../g2adminsideblock.php:95
+msgid "Polaroids"
+msgstr ""
+
+#: ../g2adminblogimage.php:59 ../g2adminblogimage.php:81
+#: ../g2adminsidebar.php:98 ../g2adminsidebar.php:120
+#: ../g2adminsideblock.php:96
+msgid "Shadow"
+msgstr ""
+
+#: ../g2adminblogimage.php:60 ../g2adminblogimage.php:82
+#: ../g2adminsidebar.php:99 ../g2adminsidebar.php:121
+#: ../g2adminsideblock.php:97
+msgid "Shells"
+msgstr ""
+
+#: ../g2adminblogimage.php:61 ../g2adminblogimage.php:83
+#: ../g2adminsidebar.php:100 ../g2adminsidebar.php:122
+#: ../g2adminsideblock.php:98
+msgid "Slide"
+msgstr ""
+
+#: ../g2adminblogimage.php:62 ../g2adminblogimage.php:84
+#: ../g2adminsidebar.php:101 ../g2adminsidebar.php:123
+#: ../g2adminsideblock.php:99
+msgid "Wood"
+msgstr ""
+
+#: ../g2adminblogimage.php:67
+msgid "WPG2ID/WPG2 Tag Album Frame:"
+msgstr ""
+
+#: ../g2adminblogimage.php:88
+msgid "WPG2ID/WPG2 Tag Image Details:"
+msgstr ""
+
+#: ../g2adminblogimage.php:90 ../g2adminsidebar.php:62
+msgid "Choose the any additional information to be displayed."
+msgstr ""
+
+#: ../g2adminblogimage.php:93 ../g2adminsidebar.php:66
+msgid "Title"
+msgstr ""
+
+#: ../g2adminblogimage.php:95 ../g2adminsidebar.php:72
+msgid "FullSize"
+msgstr ""
+
+#: ../g2adminblogimage.php:100
+msgid "G2Image Popup CSS Class Options"
+msgstr ""
+
+#: ../g2adminblogimage.php:104
+msgid "Default Image Class:"
+msgstr ""
+
+#: ../g2adminblogimage.php:106
+msgid ""
+"This is the default CSS class applied to WPG2ID/WPG2 tags and HTML "
+"thumbnails inserted using the G2Image popup window."
+msgstr ""
+
+#: ../g2adminblogimage.php:109
+msgid "Normal"
+msgstr ""
+
+#: ../g2adminblogimage.php:110
+msgid "Float Left"
+msgstr ""
+
+#: ../g2adminblogimage.php:111
+msgid "Float Right"
+msgstr ""
+
+#: ../g2adminblogimage.php:112
+msgid "Centered"
+msgstr ""
+
+#: ../g2adminblogimage.php:126
+msgid ""
+"The g2image classes must be implemented in your style.css for the alignment "
+"classes to be effective."
+msgstr ""
+
+#: ../g2adminblogimage.php:127
+msgid ""
+"Custom classes will be available as options after entering them below and "
+"hitting the \"Update Options\" button."
+msgstr ""
+
+#: ../g2adminblogimage.php:131
+msgid "Default Class Mode"
+msgstr ""
+
+#: ../g2adminblogimage.php:133
+msgid ""
+"This setting only applies to images inserted as &lt;img&gt; tags.  WPG2ID/"
+"WPG2 tags will always be wrapped with a div tag."
+msgstr ""
+
+#: ../g2adminblogimage.php:134
+msgid "Class in the img tag - &lt img class=... /&gt (Recommended)"
+msgstr ""
+
+#: ../g2adminblogimage.php:135
+msgid ""
+"Class in a div tag wrapper - &lt div class=...&gt&lt img ... /&gt&lt /div&gt"
+msgstr ""
+
+#: ../g2adminblogimage.php:139
+msgid "Custom Classes:"
+msgstr ""
+
+#: ../g2adminblogimage.php:141
+msgid "Custom Classes (a valid class in your CSS or \"not_used\")"
+msgstr ""
+
+#: ../g2adminblogimage.php:143
+msgid "1. "
+msgstr ""
+
+#: ../g2adminblogimage.php:145
+msgid "3. "
+msgstr ""
+
+#: ../g2adminblogimage.php:148
+msgid "2. "
+msgstr ""
+
+#: ../g2adminblogimage.php:150
+msgid "4. "
+msgstr ""
+
+#: ../g2adminblogimage.php:161 ../g2adming2image.php:111 ../g2adminpage.php:55
+#: ../g2adminsidebar.php:135 ../g2adminsideblock.php:119
+msgid "WPG2 Plugin Validation Failed.. Options not available"
+msgstr ""
+
+#: ../g2adming2image.php:20
+msgid "G2Image Popup Options saved."
+msgstr ""
+
+#: ../g2adming2image.php:29
+msgid "G2Image Popup Options"
+msgstr ""
+
+#: ../g2adming2image.php:35
+msgid "Thumbnails per Page:"
+msgstr ""
+
+#: ../g2adming2image.php:41
+msgid "Default Image Sort Order:"
+msgstr ""
+
+#: ../g2adming2image.php:44
+msgid "Gallery2 Title (A-z)"
+msgstr ""
+
+#: ../g2adming2image.php:45
+msgid "Gallery2 Title (z-A)"
+msgstr ""
+
+#: ../g2adming2image.php:46
+msgid "Filename (A-z)"
+msgstr ""
+
+#: ../g2adming2image.php:47
+msgid "Filename (z-A)"
+msgstr ""
+
+#: ../g2adming2image.php:48
+msgid "Last Modification (newest first)"
+msgstr ""
+
+#: ../g2adming2image.php:49
+msgid "Last Modification (oldest first)"
+msgstr ""
+
+#: ../g2adming2image.php:54
+msgid "Default Display"
+msgstr ""
+
+#: ../g2adming2image.php:56
+msgid "Thumbnails Only"
+msgstr ""
+
+#: ../g2adming2image.php:57
+msgid "Thumbnails with Titles and Filenames"
+msgstr ""
+
+#: ../g2adming2image.php:61
+msgid "Default Click Action"
+msgstr ""
+
+#: ../g2adming2image.php:63
+msgid "Instantly insert using default settings"
+msgstr ""
+
+#: ../g2adming2image.php:64
+msgid "Show Advanced Options Panel"
+msgstr ""
+
+#: ../g2adming2image.php:68
+msgid "Allow User to Change Click Options?"
+msgstr ""
+
+#: ../g2adming2image.php:70
+msgid "Yes"
+msgstr ""
+
+#: ../g2adming2image.php:71
+msgid "No"
+msgstr ""
+
+#: ../g2adming2image.php:75
+msgid "WPG2ID or WPG2 Tags?"
+msgstr ""
+
+#: ../g2adming2image.php:77
+msgid ""
+"WPG2ID Tags (Recommended.  Allows changing Gallery2 arrangement without "
+"updating existing WordPress posts.)"
+msgstr ""
+
+#: ../g2adming2image.php:78
+msgid "WPG2 Tags"
+msgstr ""
+
+#: ../g2adming2image.php:82
+msgid "Default Action:"
+msgstr ""
+
+#: ../g2adming2image.php:84
+msgid "Choose the default \"How to Insert\" option."
+msgstr ""
+
+#: ../g2adming2image.php:86
+msgid "WPG2/WPG2ID Tag"
+msgstr ""
+
+#: ../g2adming2image.php:87
+msgid "Thumbnail with link to image"
+msgstr ""
+
+#: ../g2adming2image.php:88
+msgid "Thumbnail with link to parent album"
+msgstr ""
+
+#: ../g2adming2image.php:89
+msgid "Thumbnail with link to custom URL"
+msgstr ""
+
+#: ../g2adming2image.php:90
+msgid "Thumbnail only - no link"
+msgstr ""
+
+#: ../g2adming2image.php:91
+msgid "Text link to image"
+msgstr ""
+
+#: ../g2adming2image.php:92
+msgid "Text link to parent album"
+msgstr ""
+
+#: ../g2adming2image.php:97
+msgid "Default Custom URL:"
+msgstr ""
+
+#: ../g2adminpage.php:20
+msgid "Embedded Page options saved."
+msgstr ""
+
+#: ../g2adminpage.php:29 ../g2embed.php:800
+msgid "Embedded Page Options"
+msgstr ""
+
+#: ../g2adminpage.php:35
+msgid "Simple Header<br/>(N/A when using Custom wpg2header)"
+msgstr ""
+
+#: ../g2adminpage.php:41
+msgid "Simple Footer<br/>(N/A when using Custom wpg2footer)"
+msgstr ""
+
+#: ../g2adminsidebar.php:20
+msgid "Sidebar Image options saved."
+msgstr ""
+
+#: ../g2adminsidebar.php:29
+msgid "Sidebar Image Options"
+msgstr ""
+
+#: ../g2adminsidebar.php:35
+msgid "Sidebar Block:"
+msgstr ""
+
+#: ../g2adminsidebar.php:38
+msgid ""
+"Choose the type of block to display, one or more possible blocks may be "
+"checked."
+msgstr ""
+
+#: ../g2adminsidebar.php:42 ../g2adminsideblock.php:65 ../g2embed.php:646
+msgid "Random Image"
+msgstr ""
+
+#: ../g2adminsidebar.php:43 ../g2adminsideblock.php:66 ../g2embed.php:649
+msgid "Recent Image"
+msgstr ""
+
+#: ../g2adminsidebar.php:44
+msgid "Viewed Image"
+msgstr ""
+
+#: ../g2adminsidebar.php:45 ../g2adminsideblock.php:67 ../g2embed.php:652
+msgid "Random Album"
+msgstr ""
+
+#: ../g2adminsidebar.php:46 ../g2adminsideblock.php:68 ../g2embed.php:655
+msgid "Recent Album"
+msgstr ""
+
+#: ../g2adminsidebar.php:47
+msgid "Viewed Album"
+msgstr ""
+
+#: ../g2adminsidebar.php:49
+msgid "Daily Image"
+msgstr ""
+
+#: ../g2adminsidebar.php:50
+msgid "Weekly Image"
+msgstr ""
+
+#: ../g2adminsidebar.php:51
+msgid "Monthly Image"
+msgstr ""
+
+#: ../g2adminsidebar.php:52
+msgid "Daily Album"
+msgstr ""
+
+#: ../g2adminsidebar.php:53
+msgid "Weekly Album"
+msgstr ""
+
+#: ../g2adminsidebar.php:54
+msgid "Monthly Album"
+msgstr ""
+
+#: ../g2adminsidebar.php:59
+msgid "Sidebar Block Details:"
+msgstr ""
+
+#: ../g2adminsidebar.php:67
+msgid "Date"
+msgstr ""
+
+#: ../g2adminsidebar.php:68
+msgid "Views"
+msgstr ""
+
+#: ../g2adminsidebar.php:70
+msgid "Owner"
+msgstr ""
+
+#: ../g2adminsidebar.php:71 ../g2adminsideblock.php:108
+msgid "Heading"
+msgstr ""
+
+#: ../g2adminsidebar.php:77
+msgid "Maximum Thumbnail Image Size:"
+msgstr ""
+
+#: ../g2adminsidebar.php:80
+msgid "Enter the Maximum size of the thumbnail to be displayed."
+msgstr ""
+
+#: ../g2adminsidebar.php:84
+msgid "Sidebar Item Frame:"
+msgstr ""
+
+#: ../g2adminsidebar.php:106
+msgid "Sidebar Album Frame:"
+msgstr ""
+
+#: ../g2adminsideblock.php:20
+msgid "Block options saved."
+msgstr ""
+
+#: ../g2adminsideblock.php:29 ../g2embed.php:804
+msgid "Sidebar Block Options"
+msgstr ""
+
+#: ../g2adminsideblock.php:35
+msgid "Number of images:"
+msgstr ""
+
+#: ../g2adminsideblock.php:38
+msgid "Select the number of images to display."
+msgstr ""
+
+#: ../g2adminsideblock.php:43
+msgid "One"
+msgstr ""
+
+#: ../g2adminsideblock.php:44
+msgid "Two"
+msgstr ""
+
+#: ../g2adminsideblock.php:45
+msgid "Three"
+msgstr ""
+
+#: ../g2adminsideblock.php:46
+msgid "Four"
+msgstr ""
+
+#: ../g2adminsideblock.php:47
+msgid "Five"
+msgstr ""
+
+#: ../g2adminsideblock.php:48
+msgid "Six"
+msgstr ""
+
+#: ../g2adminsideblock.php:49
+msgid "Seven"
+msgstr ""
+
+#: ../g2adminsideblock.php:50
+msgid "Eight"
+msgstr ""
+
+#: ../g2adminsideblock.php:51
+msgid "Nine"
+msgstr ""
+
+#: ../g2adminsideblock.php:58
+msgid "Block Type:"
+msgstr ""
+
+#: ../g2adminsideblock.php:61
+msgid "Select the type of block to display."
+msgstr ""
+
+#: ../g2adminsideblock.php:74
+msgid "Block Thumbnail Maximum Size:"
+msgstr ""
+
+#: ../g2adminsideblock.php:76
+msgid "Enter the size of the thumbnail to be displayed."
+msgstr ""
+
+#: ../g2adminsideblock.php:81
+msgid "Block Frame:"
+msgstr ""
+
+#: ../g2adminsideblock.php:83
+msgid "Select the type of frame to be displayed."
+msgstr ""
+
+#: ../g2adminsideblock.php:104
+msgid "Block Details"
+msgstr ""
+
+#: ../g2adminsideblock.php:106
+msgid "Choose any additional information to be displayed."
+msgstr ""
+
+#: ../g2embed.php:57
+msgid "Fatal Gallery Plug-in error"
+msgstr ""
+
+#: ../g2embed.php:57
+msgid "Plug-in options not validated"
+msgstr ""
+
+#: ../g2embed.php:104 ../g2embed.php:112 ../g2embed.php:213 ../g2embed.php:414
+#: ../g2embed.php:463 ../g2embed.php:592 ../g2embed.php:701
+msgid "Fatal G2 error"
+msgstr ""
+
+#: ../g2embed.php:104 ../g2embed.php:112 ../g2embed.php:213 ../g2embed.php:414
+#: ../g2embed.php:463 ../g2embed.php:592 ../g2embed.php:701
+msgid "Here's the error from G2: "
+msgstr ""
+
+#: ../g2embed.php:132
+msgid ""
+"There is no .htaccess file in your WordPress root directory (where wp-config."
+"php is located) and that directory is not writable.  Please create a "
+"writeable .htaccess in that directory."
+msgstr ""
+
+#: ../g2embed.php:155
+msgid ""
+"The .htaccess file in your WordPress root directory (where wp-config.php is "
+"located) is not writable.  Please CHMOD it to 644 (or 666 if 644 does not "
+"work)."
+msgstr ""
+
+#: ../g2embed.php:436 ../g2embed.php:509
+msgid "NOT FOUND"
+msgstr ""
+
+#: ../g2embed.php:439 ../g2embed.php:521 ../g2embed.php:609 ../g2embed.php:720
+msgid "WPG2 Plugin Not Validated"
+msgstr ""
+
+#: ../g2embed.php:605
+msgid "Sidebar Not Configured"
+msgstr ""
+
+#: ../g2embed.php:633
+msgid "Sidebar Block"
+msgstr ""
+
+#: ../g2embed.php:658
+msgid "Error"
+msgstr ""
+
+#: ../g2embed.php:709
+msgid "Error: "
+msgstr ""
+
+#: ../g2embed.php:712
+msgid "Unsupported Block Type"
+msgstr ""
+
+#: ../g2embed.php:716
+msgid "Block Not Configured"
+msgstr ""
+
+#: ../g2embed.php:799
+msgid "WPG2 Options"
+msgstr ""
+
+#: ../g2embed.php:799 ../g2embed.php:1028
+msgid "WPG2"
+msgstr ""
+
+#: ../g2embed.php:801
+msgid "G2Image Options"
+msgstr ""
+
+#: ../g2embed.php:802
+msgid "Blog Images Options"
+msgstr ""
+
+#: ../g2embed.php:803
+msgid "Sidebar Options"
+msgstr ""
+
+#: ../g2embed.php:808
+msgid "Gallery2 Users"
+msgstr ""
+
+#: ../g2embed.php:1028
+msgid "Gallery2 Image Chooser"
+msgstr ""
+
+#: ../g2users.php:20
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: ../g2users.php:26 ../g2users.php:92
+msgid "Fatal G2 error:"
+msgstr ""
+
+#: ../g2users.php:36
+msgid "Gallery2 capability revoked."
+msgstr ""
+
+#: ../g2users.php:45
+msgid "Gallery2 capability granted."
+msgstr ""
+
+#: ../g2users.php:56
+msgid "Gallery2 admin capability revoked."
+msgstr ""
+
+#: ../g2users.php:58
+msgid "Gallery2 admin capability revoked Failed."
+msgstr ""
+
+#: ../g2users.php:70
+msgid "Gallery2 admin capability granted."
+msgstr ""
+
+#: ../g2users.php:72
+msgid "Gallery2 admin capability grant Failed."
+msgstr ""
+
+#: ../g2users.php:102
+msgid "Manage Mapped Gallery2 <> Wordpress Users"
+msgstr ""
+
+#: ../g2users.php:103
+msgid ""
+"This page is for controlling the Gallery2 capabilities that are associated "
+"with each user."
+msgstr ""
+
+#: ../g2users.php:108
+msgid "Wordpress Users with Gallery2 admin accounts"
+msgstr ""
+
+#: ../g2users.php:110 ../g2users.php:160 ../g2users.php:217
+msgid "WP ID"
+msgstr ""
+
+#: ../g2users.php:111 ../g2users.php:161 ../g2users.php:218
+msgid "G2 ID"
+msgstr ""
+
+#: ../g2users.php:112 ../g2users.php:162 ../g2users.php:219
+msgid "User Name"
+msgstr ""
+
+#: ../g2users.php:113 ../g2users.php:163 ../g2users.php:220
+msgid "Nickname"
+msgstr ""
+
+#: ../g2users.php:114 ../g2users.php:164 ../g2users.php:221
+msgid "Name"
+msgstr ""
+
+#: ../g2users.php:115 ../g2users.php:165 ../g2users.php:222
+msgid "Email"
+msgstr ""
+
+#: ../g2users.php:116 ../g2users.php:166 ../g2users.php:223
+msgid "Website"
+msgstr ""
+
+#: ../g2users.php:117 ../g2users.php:167 ../g2users.php:224
+msgid "Action"
+msgstr ""
+
+#: ../g2users.php:148 ../g2users.php:198 ../g2users.php:254
+msgid "e-mail: "
+msgstr ""
+
+#: ../g2users.php:149 ../g2users.php:199 ../g2users.php:255
+msgid "website: "
+msgstr ""
+
+#: ../g2users.php:151
+msgid "Revoke G2 Admin"
+msgstr ""
+
+#: ../g2users.php:158
+msgid "Wordpress Users without Gallery2 admin accounts"
+msgstr ""
+
+#: ../g2users.php:201
+msgid "Grant G2 Admin"
+msgstr ""
+
+#: ../g2users.php:202 ../g2users.php:204
+msgid "Revoke G2 User"
+msgstr ""
+
+#: ../g2users.php:215
+msgid "Wordpress Users without Gallery2 accounts"
+msgstr ""
+
+#: ../g2users.php:250
+msgid "NA"
+msgstr ""
+
+#: ../g2users.php:256
+msgid "Grant G2 User"
+msgstr ""

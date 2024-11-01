@@ -1,0 +1,256 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>WPG2 README.HTML</title>
+	<link rel="stylesheet" href="wpg2_readme.css" type="text/css" />
+</head>
+<body>
+	<div id="main" >
+		<h2>WPG2 - WordPress / Gallery2 Integration</h2>
+		<p>Version 2.0<br />
+		Authors: <a href="http://wpg2.galleryembedded.com/" >WPG2 Development Team</a><br />
+		Online Documentation: <a href="http://wpg2.galleryembedded.com/">wpg2.galleryembedded.com</a><br />
+		Support Forum: <a href="http://www.galleryembedded.com/">www.galleryembedded.com</a><br />
+
+		<h2>I - REQUIREMENTS</h2>
+
+		<ol>
+			<li>To use the "WPG2" plugin, you must have <a href="http://gallery.menalto.com/" >Gallery2</a> installed and properly configured:
+			<ul>
+				<li>You must have <a href="http://codex.gallery2.org/index.php?title=Gallery2:Download">Gallery2 2.1</a>
+				<li><strong>NOTE:</strong> This version WILL NOT WORK with Gallery2 version 2.0.x.
+				<ul>
+					<li>Use WPG2 version 1.0 with G2Image version 1.3.5 if you need to use Gallery2 version 2.0.x.
+					<li>If you are using Gallery2 2.0.x, we <strong>highly recommend</strong> that you upgrade to Gallery2 2.1 and WPG2 2.0 because of Gallery2's greatly improved performance and WPG2's automated setup.
+				</ul>
+				<li><strong>You must also have the Gallery2 ImageBlock and ImageFrame modules installed and activated.</strong>
+				<ul>
+					<li>The ImageBlock and ImageFrame modules do not come with the "minimum" Gallery2 installation and must be downloaded from the <a href="http://codex.gallery2.org/index.php?title=Gallery2:Download">Gallery2 download page</a> and installed separately.
+				</ul>
+			</ul>
+
+			<li>You must also have <a href="http://wordpress.org/" >WordPress</a> installed and properly configured:
+			<ul>
+				<li>Requires <a href="http://wordpress.org/download/">version 2.0.2</a> or greater.
+			</ul>
+
+			<li>Wordpress & Gallery2 may be on different subdomains.
+
+			<li>Wordpress & Gallery2 should be installed on the same Database.
+
+			<li>Only one WordPress Blog tied to one Gallery2 Gallery
+			<ul>
+				<li>Unless you only have one identical user on multiple blogs, tying multiple blogs to one gallery will cause user errors because there is not a way to currently distinguish one blog's users from another blog's users within Gallery2. 
+			</ul>
+
+			<li>PHP memory limit of 16MB or better. 
+
+			<li>Tested with IE 6.0 and Firefox 1.5.
+		</ol>
+
+		<h2>II - INSTALLATION</h2>
+
+		<h3>Upgrading</h3>
+
+		<ul>
+
+			<li>If you are upgrading from WPG2 version 1.0, delete all of the files in the /wordpress/wp-content/plugins/wp-gallery2/ directory.
+
+			<li>If you are upgrading from a pre-release version of WPG2 version 2.0, deactivate WPG2 on the WordPress Plugins Management Panel. 
+
+		</ul>
+
+		<h3>File Installation</h3>
+
+		<ol>
+			<li>Unzip the files.
+
+			<li>FTP the file "wp-gallery2.php" to your WordPress root directory.  This is the directory that contains wp-config.php.  Under a default WordPress installation it is /wordpress/.
+
+			<li>FTP the contents of the "wp-content/plugins/wpg2/" directory to a new folder called /wpg2/ in your WordPress plugins directory, /wordpress/wp-content/plugins/.
+
+			<li>FTP the contents of the "wp-includes/js/tinymce/plugins/g2image/" directory to a new folder called /g2image/ in your TinyMCE plugins directory, /wordpress/wp-includes/js/tinymce/plugins/.
+
+			<li>After everything is installed, force a reload (for FireFox) or a refresh (for IE) at the "Write Post" and/or "Write Page" admin pages.  This forces the TinyMCE javascript to reload and display the button.
+
+			<li>See Configuration, below, for activating and configuring the plugin.
+
+		</ol>
+
+		<h3>More TinyMCE Considerations</h3>
+
+		<ul>
+
+			<li>If you previously installed a modified WP 2.0 tiny_mce_gzip.php file for an earlier g2image	version, you should use the tiny_mce_gzip.php included with WP 2.0.2 instead.
+				<ul>
+					<li>All of the changes have been incorporated in the WPG2 plugin and the WP 2.0.2 version of tiny_mce_gzip.php
+					<li>If you do not replace the previous tiny_mce_gzip.php file, the program will function properly, but you will have two g2image buttons.
+				</ul>
+
+			<li>If you are using the rich-text editor and you have any other plugins that affect the TinyMCE button layout, like the Advanced Editor Plugin, you need to check whether you'll need to add "g2image" to their button setup.
+
+		</ul>
+
+		<h3>CSS for the alignment options</h3>
+
+		<ul>
+			<li>If you want to use the built-in alignment options, you'll need to add these four classes to your CSS.  You can also add up to four custom classes to your CSS and add to the Custom Classes options on the WPG2 Image Options admin tab.  Custom classes will be available in the alignment selector.
+
+			<li>You'll need to customize these to fit into your site design.  This is how they're implemented in the CSS for www.steffensenfamily.com:
+
+			<div class="codeblock" >
+<pre>
+.g2image_normal
+{
+	margin: 4px;
+}
+
+.g2image_float_left
+{
+	float: left;
+	clear: left;
+	margin: 4px;
+}
+
+.g2image_float_right
+{
+	float: right;
+	clear: right;
+	margin: 4px;
+}
+
+.g2image_centered
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+</pre>
+			</div>
+
+			<li>Note: The alignment classes only apply to WPG2ID/WPG2 tags and HTML thumbnails, not text links.
+		</ul>
+
+		<h3>Language Support</h3>
+		<ul>
+			<li>Version 2.0 shipped with support for English (en) and Chinese Traditional (zh_TW) for the WPG2 admin tabs and English (en), Chinese Traditional (zh_TW), Italian (it), and German (de, and de_DE) for the G2Image popup windows.  Check the <a href="http://wpg2.ozgreg.com/forums/">WPG2 support forum</a> and the <a href="http://g2image.steffensenfamily.com/">G2Image homepage</a> for more translations.
+			<li>WPG2 Admin Tabs: If you use <a href="http://www.poedit.org/index.php">poEdit</a> to translate /wpg2/locale/wpg2.pot into your language's wpg2-xx.po and wpg2-xx.mo files, you can use them by placing them in the /locale/ folder.  They must have the same encoding and name as the WordPress locale file as set by WPLANG in wp-config.php.
+			<ul>
+				<li>Example: The WordPress Traditional Chinese localization is encoded in UTF-8 and are named zh_TW.po and zh_TW.mo.  The corresponding WPG2 localizations are also in UTF-8 and are named wpg2-zh_TW.po and wpg2-zh_TW.mo.
+			</ul>
+			<li>G2Image Pop-Up Windows:  If you translate /g2image/langs/en.js and en.php, you can use them by changing the language setting editor_plugin.js.
+			<ul>
+				<li>The main G2Image popup window will automatically use the language defined wp-config.php as WPLANG.
+				<li>The WPG2 and WPG2ID popup windows in the rich-text editor require a change to /g2image/editor_plugin.js.  Add your language to the second line with a preceding comma after the "de_DE".  For example Russian (ru_RU) is added here:
+				<ul>
+					<li><code>tinyMCE.importPluginLanguagePack('g2image', 'en, zh_TW, it, de, de_DE, ru_RU');</code>
+				</ul>
+			</ul>
+			<li>Please share your translations by posting them on the <a href="http://wpg2.ozgreg.com/forums/">WPG2 support forum</a>.
+		</ul>
+		
+		<h2>IV - CONFIGURATION</h2>
+
+		<h3>Activate WPG2</h3>
+
+		<ul>
+			<li>Activate WPG2 on the WordPress Plugins Management Panel.
+		</ul>
+
+		<h3>Validate WPG2</h3>
+
+		<ul>
+			<li>You will now have a "WPG2" options tab on the main WordPress Admin Menu Bar.
+
+			<li>Select it. The first tab is a WPG2 submenu tab.
+
+			<li>Enter your Gallery2 URL in the "Auto Configuration of Embedded Paths - Gallery2 URL" text field and press the "Auto Configure" button. This should result in a valid setup.
+
+			<li>If you have any errors, follow the directions in the error message to resolve any issues.
+
+			<ul>
+				<li>If you cannot get the auto configuration to work, enter the path information manually in the "Manually Configure/Adjust Embedded Paths" section. Guidance on each field is provided immediately below the field.
+				<li>This will happen in the rare case of using Gallery2 on a different subdomain on a clustered server arrangement where the computer hosting your site has a different IP address than the IP used in the HTTP request. 
+			</ul>
+		</ul>
+
+		<h3>Verify User Account Setup</h3>
+
+		<ul>
+
+			<li>Once WPG2 is validated, there will be a "Gallery2 Users" tab under the WordPress "Users" tab.
+
+			<li>Verify that all of the users who should have Gallery2 Admin privileges through the embedded page (wp-gallery2.php) are in the list of Gallery2 Admin Users.
+
+			<li>Verify that any other users who should be logged in as a Gallery2 user (but not admin) through the embedded page are in the list of WordPress users without Gallery2 admin accounts.
+
+			<li>Any Wordpress users who do not have a corresponding Gallery2 account will appear in the list of WordPress users without Gallery2 user accounts.
+
+			<ul>
+				<li>These lists will only appear if there is one or more user in them. 
+			</ul>
+
+			<li>See the <a href="http://wpg2.galleryembedded.com/">online documentation</a> and the <a href="http://www.galleryembedded.com/">WPG2 support forum</a> for more information.
+
+		</ul>
+
+		<h2>V - OPERATION</h2>
+
+		<ol>
+
+			<li>Images in blog posts: Use the G2Image popup by clicking the "<a href="http://g2image.steffensenfamily.com">G2Image</a>" button (if using TinyMCE, the rich-text editor) or the "WPG2" quicktag.  &lt;wpg2id&gt; tags provide the most flexibility because they will work if you move your images and/or albums around within the Gallery2 album structure.
+
+			<li>Single images in the sidebar -  Use the following code:
+<pre>
+&lt;?php print g2_sidebarimageblock(); ?&gt;
+</pre>
+This will create a sidebar image block per the settings on the WPG2 Sidebar Options tab.
+
+			<li>Sidebar grids (multiple images of one type):
+
+			<ul>
+				<li>Use the following code:
+<pre>
+&lt;?php print g2_sidebargridblock(); ?&gt;
+</pre>
+This will create a sidebar image gridblock per the settings on the WPG2 Sidebar Block Options tab.
+
+				<li>You can also use the following code:
+<pre>
+&lt;?php print g2_sidebargridblock('blocktype', number_of_images, blockmaximgsize, 'blocktitle'); ?&gt;
+</pre>
+This will create a sidebar image gridblock using the parameters defined in the fuction call, if present.  If a given parameter is not included in the function call, the settings from the WPG2 Sidebar Block Options tab will be used for that parameter.
+
+				<ul>
+					<li> Valid options for 'blocktype' are
+
+					<ul>
+						<li>'randomImage'
+						<li>'recentImage'
+						<li>'randomAlbum'
+						<li>'recentAlbum'
+					</ul>
+
+					<li>number_of_images is an integer that defines the number of images that will be included in this particular image gridblock.
+
+					<li>blockmaximgsize is an integer that defines the maximimum number of pixels that a thumbnail will occupy in either width or height.  This can be larger than the pixel size of your Gallery2 thumbnails, but it will not increase the size of the thumbnail in this case.
+
+					<li>'blocktitle' is the title that you want shown as a &lt;h2&gt; heading in the image gridblock.
+				</ul>
+			</ul>
+
+			<li>See the <a href="http://wpg2.galleryembedded.com/">online documentation</a> and the <a href="http://www.galleryembedded.com/">WPG2 support forum</a> for more information.
+
+		</ol>
+
+		<h2>VI - ABOUT THE LICENSE</h2>
+
+		<p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
+
+		<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details, in the <a href="WPG2_LICENSE.HTML">LICENSE.HTML</a> file.</p>
+
+		<p>If you have not received a copy of this file along with this program, write to:<br />The Free Software Foundation, Inc.<br />59 Temple Place - Suite 330<br />	Boston, MA  02111-1307<br />USA</p>
+
+	</div>
+</body>
+</html>
